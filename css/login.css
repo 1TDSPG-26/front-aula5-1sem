@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 input:valid:not(:placeholder-shown){
     border: 2px solid green;
@@ -5,4 +6,11 @@ input:valid:not(:placeholder-shown){
 
 input:invalid:not(:placeholder-shown){
     border: 2px solid red;
+=======
+input:invalid:not(:placeholder-shown){
+          border: 2px solid red;
+}
+input:valid{
+          border: 2px solid green;
+>>>>>>> rm572912
 }
