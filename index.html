@@ -7,10 +7,40 @@
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/script.js"></script>
 
+      <script>
+        //Esta é uma arrow-function
+        const saudacao2 = ()=> console.log("Olá mundo do HEAD!");
+      </script>
+
     <title>ESPORTE TOTAL</title>
   </head>
   <body>
     <header class="cabecalho">
+<<<<<<< HEAD
+      <nav class="cabecalho__nav">
+        <ul class="cabecalho__ul">
+          <li class="cabecalho__li cabecalho__li-active">
+            <a class="cabecalho__a cabecalho__a--active" href="#">Home</a>
+          </li>
+          <li class="cabecalho__li">
+            <a class="cabecalho__a" href="#">Futebol</a>
+          </li>
+          <li class="cabecalho__li">
+            <a class="cabecalho__a" href="#">Basquete</a>
+          </li>
+          <li class="cabecalho__li">
+            <a class="cabecalho__a" href="#">Volei</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="conteudo">
+      <section class="hero">
+        <div class="hero__container">
+          <h1 class="hero__title">Logo</h1>
+
+=======
       <a class="cabecalho__logo" href="./index.html">ESPORTE TOTAL</a>
 
       <nav class="cabecalho__nav">
@@ -36,6 +66,7 @@
         <div class="hero__container">
           <h1 class="hero__title">ESPORTE TOTAL</h1>
 
+>>>>>>> rm572956
           <p class="hero__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
             similique aperiam amet cum, eos sequi repellendus error earum
@@ -60,12 +91,25 @@
             provident perspiciatis. Vitae?
           </p>
 
+<<<<<<< HEAD
           <a aria-label="Acessar a conta" class="hero__btn" href="./login.html">Login</a>
+
+=======
+<<<<<<< HEAD
+          <a class="hero__btn" href="#" onclick="saudacao(), saudacao2()">mais...</a>
 
         </div>
       </section>
 
+      <div class="conteudo__container">
+=======
+          <a class="hero__btn" href="#conteudo" onclick="saudacao(); saudacao2()">mais...</a>
+>>>>>>> rm572912
+        </div>
+      </section>
+
       <div class="conteudo__container" id="conteudo">
+>>>>>>> rm572956
       
         <section class="conteudo__sec">
           <h2 class="conteudo__tit">Futebol</h2>
@@ -89,7 +133,11 @@
           <a class="conteudo__btn" href="#" aria-label="Fique sabendo">mais...</a>
         </section>
        <section class="conteudo__sec">
+<<<<<<< HEAD
+          <h2 class="conteudo__tit">Volei</h2>
+=======
           <h2 class="conteudo__tit">Vôlei</h2>
+>>>>>>> rm572956
           <p class="conteudo__txt">
             Doloremque qui commodi recusandae enim, laboriosam assumenda
             doloribus nesciunt, aliquam nihil obcaecati id dolor minus minima
@@ -104,9 +152,26 @@
 
     </main>
 
+<<<<<<< HEAD
+    <footer>
+      <p>&copy; Todos os direitos reservados - ESPORTE TOTAL - 2026</p>
+    </footer>
+
+    <script>
+
+      function saudacao(){
+        console.log("Olá mundo, através da FUNCTION!");
+
+
+      }
+        saudacao();
+        saudacao2();
+    </script>
+=======
     <footer class="footer">
       <p>&copy; Todos os direitos reservados - ESPORTE TOTAL - 2026</p>
     </footer>
+>>>>>>> rm572956
 
   </body>
 </html>

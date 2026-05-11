@@ -1,4 +1,29 @@
 .conteudo__container{
+<<<<<<< HEAD
+   display: grid;
+   margin: 1rem;
+   gap:1rem;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.conteudo__sec{
+    background-color: #b495c0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    position: static;
+    transition:all 0.5s;
+}
+
+.conteudo__sec:hover{
+    background-color: #f4e8ff;
+    color: #000;
+    z-index: 1000;
+    font-size: 3rem;
+    margin: 0 auto;
+    position:absolute;
+=======
     padding: 2% 5%;
     display: grid;
     margin: 1rem;
@@ -22,10 +47,14 @@
     cursor: pointer;
     background-color: var(--cor-primaria);
     color: var(--cor-texto-primario);
+>>>>>>> rm572956
 }
 
 .conteudo__tit{
     text-align: center;
+<<<<<<< HEAD
+    font-size: 2rem;
+=======
     font-weight: bold;  
     font-size: 2.3rem;
     margin: 2rem 0;
@@ -61,4 +90,5 @@
     .conteudo__container{
         grid-template-columns: 1fr;
     }
+>>>>>>> rm572956
 }
