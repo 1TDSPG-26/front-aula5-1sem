@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 input:valid:not:placeholder-shown{
     border: 2px solid green;
 }
 input:invalid:not:placeholder-shown{
+=======
+
+input:valid:not(:placeholder-shown){
+    border: 2px solid green;
+}
+
+input:invalid:not(:placeholder-shown){
+>>>>>>> origin/Rm572942
     border: 2px solid red;
 }
