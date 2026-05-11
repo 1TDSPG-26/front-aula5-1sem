@@ -1,0 +1,6 @@
+.footer{
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-primario);
+    padding: 2% 5%; 
+    margin: 2% 0;
+}

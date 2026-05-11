@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -8,14 +7,14 @@
 }
 
 :root{
-    --cor-primaria: #698fca;
-    --cor-secundaria: #aca5a5;
+    --cor-primaria: #0b3612;
+    --cor-secundaria: #aa8c3c;
     --cor-fundo: #ebb7b7;
     --cor-texto-primario: #fff;
     --cor-texto-secundario: #868181;
     --title-main: 4rem;
     --sub-title: 2.5rem;
-    --overlay-gradiente: linear-gradient(45deg, rgba(231, 68, 169, 0.425), rgba(97, 193, 80, 0.5));
+    --overlay-gradiente: linear-gradient(500deg, rgba(8, 8, 8, 0.812), rgba(157, 47, 13, 0.105));
 }
 
 html{
@@ -45,3 +44,4 @@ a{
 ul{
     list-style: none;
 }
+
