@@ -1,17 +1,44 @@
-// alert("olá mundo!");
-// var nome = prompt("Olá digite seu nome");
 
-// alert("Meu nome é " + nome);
-// console.log("Meu nome é " + nome);
+//Capturando o botão de entrar
+const botaoEntrar = document.getElementById("btnEntrar");
+console.log(botaoEntrar);
 
-//Declarando variáveis em JS com let
 
-let nome = "José";
-let idade = 33;
-let status = false;
+//Atrelando ao botão uma função que vai receber dois parâmetros.
+// O primeiro será o evento de tela, o segundo será a função de callBack ou função anônima.
 
-//Imprimindo os dados do noss usário José com console.log usando concatenação simples>
 
-console.log(nome + " tem " + idade + " anos. Está " +(status === true ? "empregado " : "desempregado " + "atualmente."))
+botaoEntrar.addEventListener("click", function(){
 
-console.log(`${nome} tem ${idade} está ${status === true ? "empregado" : "desempregado"} atualmente. Template-literal`);
+
+
+
+    //     //Para casa:
+//     //Capturar os campos de email e senha.
+//     //Armazenar em variáveis.
+//     //Imprimir seus valores.
+
+    const email = document.getElementById("idEmail");
+    const senha = document.getElementById("idSenha");
+
+    //Armazenando os dados em um Objeto:
+    //Declarando um Objeto
+    const usuario = {
+        email : email.value,
+        senha : senha.value
+    }
+
+    
+    //Imprimindo os dados dos campos:
+
+    //Concatenação padrão:
+    console.log("Email : " + email.value + " e senha: " + senha.value);
+    
+    //Impressão dos dados com Template Literal e interpolação:
+    console.log(`Email :  ${email.value}  e senha: ${senha.value}.`);
+
+    //Para casa.
+    //Realizar os exercício da apostila até a página 64.
+    //Apresente os dados armazenados no Objeto usuário utilizando Template Literal:
+
+});

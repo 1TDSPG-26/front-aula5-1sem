@@ -1,0 +1,8 @@
+
+input:valid:not(:placeholder-shown){
+    border: 2px solid green;
+}
+
+input:invalid:not(:placeholder-shown){
+    border: 2px solid red;
+}

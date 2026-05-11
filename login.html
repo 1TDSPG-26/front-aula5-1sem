@@ -3,43 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
+
     <link rel="stylesheet" href="./css/main.css" />
-    <script src="./js/script.js"></script>
- 
+    
+    <script src="./js/script.js" defer></script>
+
     <title>ESPORTE TOTAL - LOGIN</title>
   </head>
   <body>
     <header class="cabecalho">
       <a class="cabecalho__logo" href="./index.html">ESPORTE TOTAL</a>
- 
+
       <nav class="cabecalho__nav">
         <ul class="cabecalho__ul">
           <li class="cabecalho__li cabecalho__li-active">
-            <a class="cabecalho__a cabecalho__a--active" href="./index.html">Home</a>
+            <a class="cabecalho__a cabecalho__a--active" href="./index.html"
+              >Home</a
+            >
           </li>
         </ul>
       </nav>
     </header>
- 
+
     <main class="conteudo">
       <section class="hero">
         <div class="hero__container">
           <h1 class="hero__title">CONTROLE DE ACESSO</h1>
 
-            <form action="/login" method="GET / POST">
+          <form action="#" method="GET">
+            <fieldset>
+              <legend>LOGIN</legend>
+              <div>
+                <label for="idEmail">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="idEmail"
+                  placeholder="Digite seu email"
+                  minlength="13"
+                  maxlength="150"
+                  required
+                /> 
+              </div>
+              <div>
+                <label for="idSenha">Senha</label>
+                <input
+                  type="password"
+                  name="senha"
+                  id="idSenha"
+                  placeholder="Digite sua senha"
+                  minlength="5"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <div>
+        <button type="submit" id="btnEntrar">Entrar</button>
+                
+              </div>
+            </fieldset>
+          </form>
 
-            </form>
- 
-          <span>Não tem conta?</span><a aria-label="Para criar sua conta" class="hero__btn" href="#">clique aqui</a>
- 
+          <span>Não tem conta?</span
+          ><a
+            aria-label="Para criar sua conta"
+            class="hero__btn"
+            href="./index.html?nome=Alexandre&sobre-nome=Silva"
+            >clique aqui</a
+          >
         </div>
       </section>
     </main>
- 
+
     <footer class="footer">
       <p>&copy; Todos os direitos reservados - ESPORTE TOTAL - 2026</p>
     </footer>
- 
+    
   </body>
 </html>
