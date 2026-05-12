@@ -27,4 +27,5 @@ botaoEntrar.addEventListener("click", function(){
     
     //Apresente os dados armazenados no Objeto usuário utilizando Template Literal;
     //Realizar todos os exercícos da apostila até a pág 64;
+    console.log(`usuario : ${email.value}${senha.value}`)
 });
